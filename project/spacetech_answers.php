@@ -24,11 +24,11 @@ $answer5 = $_POST['question-5-answers'];
 
 $totalCorrect = 0;
 
-if ($answer1 == "yes") { $totalCorrect++; }
+if ($answer1 == "no") { $totalCorrect++; }
 if ($answer2 == "yes") { $totalCorrect++; }
-if ($answer3 == "yes") { $totalCorrect++; }
-if ($answer4 == "yes") { $totalCorrect++; }
-if ($answer5 == "no") { $totalCorrect++; }
+if ($answer3 == "16") { $totalCorrect++; }
+if ($answer4 == "device") { $totalCorrect++; }
+if ($answer5 == "protection") { $totalCorrect++; }
 
 echo "<div id='results'>$totalCorrect / 5 correct</div>";
 ?>
@@ -43,9 +43,8 @@ echo "<div id='results'>$totalCorrect / 5 correct</div>";
 <div id="myModal" class="modal">
     <!-- Modal content -->
    <div class="modal-content">
-      <h1>Start Your E-Learning Experience</h1>
-      <p> Navigate your journey to the Solar system, travel through the Universe and finish at discovering about Space Tech. Stop off and have a go at testing your knowledge with our quick quizzes.<p>
-    <p>Click on the button below to begin your Space Travel!<p>
+      <h1>Congratulations!</h1>
+      <p> You have completed your journey through Space. We hope you have enjoyed your time on Astro-learn and we hope to see you again soon!<p>
       <button><a href="index.php">Back To Home</a></button>
   </div>
   </div>

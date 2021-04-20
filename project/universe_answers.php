@@ -46,7 +46,7 @@
         <h1>Another Topic Completed!</h1>
         <p> Move on to the final topic and finish your experience on a high note.<p>
       <p>Click on the button below to finalise your Space Travel!<p>
-        <button><a href="tech.php">The Solar System</a></button>
+        <button><a href="tech.php">Space Tech</a></button>
     </div>
     </div>
 

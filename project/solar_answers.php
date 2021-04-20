@@ -24,13 +24,14 @@ $answer5 = $_POST['question-5-answers'];
 
 $totalCorrect = 0;
 
-if ($answer1 == "yes") { $totalCorrect++; }
-if ($answer2 == "yes") { $totalCorrect++; }
-if ($answer3 == "no") { $totalCorrect++; }
-if ($answer4 == "no") { $totalCorrect++; }
+if ($answer1 == "mercury") { $totalCorrect++; }
+if ($answer2 == "fourmillion") { $totalCorrect++; }
+if ($answer3 == "two") { $totalCorrect++; }
+if ($answer4 == "jupiter") { $totalCorrect++; }
 if ($answer5 == "yes") { $totalCorrect++; }
 
 echo "<div id='results'>$totalCorrect / 5 correct</div>";
+
 ?>
 
 <br>
